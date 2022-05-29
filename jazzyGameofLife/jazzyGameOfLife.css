@@ -1,0 +1,56 @@
+/* #grid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+} */
+ */
+  body {
+    overflow: hidden;
+    height: 20;
+  }
+
+  button {
+    background: rgb(5, 5, 5);
+    font-family: arcade;
+    font-size: 30px;
+    color: rgb(215, 218, 58);
+    border: 3px solid rgb(10, 40, 138);
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 80%;
+    padding-bottom: 0px;
+    text-align: center;
+    
+    }
+
+  #buttonHolder {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+   /*  border: 3px solid rgb(10, 40, 138); */
+    
+    
+  }
+
+  #grid {
+    border: 3px solid rgb(216, 51, 29);
+    border-radius: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  @font-face{
+    font-family: "arcade";
+    src: url("ARCADECLASSIC.TTF") format("truetype");
+  }

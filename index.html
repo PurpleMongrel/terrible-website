@@ -1,0 +1,161 @@
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="website.css">
+<header class="header" id="header">
+  <!--  <div class="header__title-logo">
+        <img id="header-img" class="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg
+" alt="blue-maple-leaf-logo" /> -->
+  <h1 class="header__title">Apalling Website for My Projects and Meditations</h1>
+  </div>
+  <nav id="nav-bar" class="header__nav-bar">
+    <ul class="header__list">
+      <li class="header__li"><a class="nav-link" href="#about__start">about</a></li>
+      <li class="header__li"><a class="nav-link" href="#media-start">media</a></li>
+      <li class="header__li"><a class="nav-link" href="#contact-address">contact</a></li>
+    </ul>
+  </nav>
+</header><br>
+<section class="first-picture">
+
+  <link rel="stylesheet" href="./jazzyGameofLife/jazzyGameOfLife.css">
+<div id="jazzyGameOfLife_container">
+  <body style="background:rgb(0, 0, 0)" style="overflow:hidden">
+    <div id="buttonHolder">
+      <button class="button" id="runButton">RUN</button>
+      <button class="button" id="autoRunButton">AUTO</button>
+      <button class="button" id="restartButton">RESET</button>
+      <button class="button" id="clearButton">CLEAR</button>
+    </div>
+
+    <div id="grid"></div>
+    <script src="./jazzyGameofLife/jazzyGameOfLife.js"></script>
+    <script>runGameOfLife();</script>
+  </div>
+
+    <figcaption class="first-picture__figcaption">
+      Jazzy Game of Life<br>Conway's cellular automaton never ceases to be interesting to look at, which is why I choose it as a theme in this DOM/HTML project. <br>RESET button resets initial seed pattern, though user may also click individual DOM element boxes (displayed as circles) turn cells on or off, RUN button steps through one generation per click, and AUTO starts/stops looping though generations automatically.  
+      <br>auto adjust timing, use to create game character, more optimal solution
+      <br>Improvements that may never happen:
+      <br>Performance on auto is attrocious - my very average laptop is sputtering and hyperventillates after a few seconds. Disgraceful. This is clearly not the way to do things.This improvement is essential and might actually happen one of these days...
+      <br>A button to set specific AUTO interval
+      <br>Pinch some of this code for a platform game - using it to create unpredictable little floating villains. Would have to think of how to program crafty constraints so the villains don't evaporate, grow too big, or move beyond desired area. Maybe user could have limited time and clicks to turn on/off cells hoping to annihilate the villain, with failure meaning a villain could grow too big for player to survive confrontation - this would mean less constraints and less need for me to be clever. yay
+    </figcaption>
+</section>
+<section class="quote-area">
+  <div class="quote-area__quote">
+    <p class="quote-area__text">“Climb the mountains and get their good tidings. Nature's peace will flow into you as
+      sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while
+      cares will drop away from you like the leaves of Autumn.”</p><br>
+    <p class="quote-area__author">― John Muir</p>
+  </div>
+  <div class="quote-area__picture-section">
+    <img class="quote-area__img" src="https://i.pinimg.com/originals/78/f1/67/78f16744416c5d7ebf75fce171bae128.jpg"
+      alt="Banff National Park, Alberta">
+    <figcaption class="quote-area__figcaption">Banff National Park, Alberta</figcaption>
+  </div>
+</section>
+<div id="about__start" class="about__start"></div>
+<div id="about" class="about">
+  <h2 class="about__h2">Canadian Treasure</h2>
+  <div class="about__content">
+    <div class="about__img-container--right">
+      <img class="about__img"
+        src="https://www.chatelaine.com/wp-content/uploads/2017/01/GrosMorne_Flickr_NewfoundlandLabradorTourismBoard.jpg"
+        alt="Grasslands National Park Saskatchewan">
+      <figcaption class="about__figcaption">Gros Morne National Park, Newfoundland and Labrador</figcaption>
+    </div>
+    <p class="about__text">National parks are among Canada's - and the world's - natural jewels. They represent the
+      power of Canada's natural environment — a compelling force — which has shaped not only the geography of this
+      country, but also the course of its history and the experiences of the people who live and travel here.</p>
+    <p class="about__text">National parks are established to protect and present outstanding representative examples of
+      natural landscapes and natural phenomena that occur in Canada's 39 natural regions, as identified in the National
+      Parks System Plan. These wild places, located in every province and territory, range from mountains and plains, to
+      boreal forests and tundra, to lakes and glaciers, and much more. National parks protect the habitats, wildlife and
+      ecosystem diversity representative of — and sometime unique to — the natural regions.</p>
+    <p class="about__text">National parks are located on the Atlantic, Pacific and Arctic coasts, across the interior
+      mountains and plains and Great Lakes, reaching as far north and south as Canada goes. They range in size from 14
+      km2 (Georgian Bay Islands National Park of Canada) to almost 45,000 km2 (Wood Buffalo National Park of Canada).
+      And they include world-renowned names such as Banff and Jasper, as well as more recently established Ivvavik and
+      Vuntut.</p>
+    Parks Canada is responsible for both protecting the ecosystems of these magnificent natural areas and managing them
+    for visitors to understand, appreciate, and enjoy in a way that doesn't compromise their integrity.</p>
+  </div>
+</div>
+<div id="2nd" class="about">
+  <h2 class="about__h2">Understanding and appreciating</h2>
+  <div class="about__content">
+    <div class="about__img-container--left">
+      <img class="about__img"
+        src="https://www.chatelaine.com/wp-content/uploads/2017/01/Sirmilik_WikimediaCommons_Ansgar-Walk.jpg"
+        alt="Grasslands National Park Saskatchewan">
+      <figcaption class="about__figcaption">Sirmilik National Park, Nunavut</figcaption>
+    </div>
+    <p class="about__text">The breathtaking scenery and inspiring natural surroundings in national parks provide the
+      perfect setting for tuning into nature, learning about it, appreciating it, respecting it and pledging to protect
+      it. Each national park is a haven for the human spirit.</p>
+    <p class="about__text">National parks tell the stories of Canada's natural beginnings - mountains forming, lakes
+      emerging, rivers running, forests growing, glaciers moving, grasslands evolving - to anyone who takes the time to
+      listen, to look and to understand. They tell tales of human history too, from traditional Aboriginal activities,
+      to early exploration, to European settlement, to modern use. And they reveal ongoing natural processes - floods
+      enriching, fires renewing, species migrating. They provide opportunities to connect with nature, people and events
+      that define Canada.</p>
+    <p class="about__text">Understanding the importance of Canada's natural heritage to the nation and the world, and
+      developing support for its protection are critical to the long-term health of the system of national parks.</p>
+    <p class="about__text">Visitors can paddle down rivers flowing through canyons carved over thousands of years,
+      observe birds as they rest in their travels along traditional migration routes, walk through vibrant young forests
+      transformed by fire. These are unforgettable experiences, made all the more memorable by the learning
+      opportunities Parks Canada offers through interpretative walks, exhibits and activities or in co-operation with
+      the heritage tourism industry.</p>
+  </div>
+</div>
+<div id="3rd" class="about">
+  <h2 class="about__h2">Protecting</h2>
+  <div class="about__content">
+    <div class="about__img-container">
+      <img class="about__img"
+        src="https://tourismswiftcurrent.ca/tsc/wp-content/uploads/2013/12/grasslands-bison-1920x672.jpg"
+        alt="Grasslands National Park Saskatchewan">
+      <figcaption class="about__figcaption">Grasslands National Park, Saskatchewan</figcaption>
+    </div>
+    <p class="about__text">Parks Canada is working to maintain or restore the ecological integrity of national parks.
+      This means keeping ecosystems healthy and whole — a state where ecosystem biodiversity, structures and functions
+      are unimpaired and likely to persist.</p>
+    <p class="about__text">Maintaining or restoring ecological integrity is a challenging task that involves a good
+      understanding of the dynamic nature of ecosystems and the stresses they face. It also requires collaboration among
+      people whose actions influence the ecosystems and their sustainability - from neighbouring landowners and
+      businesses, to local residents, visitors and governments. The above reflect the principles of ecosystem
+      management.</p>
+
+    <p class="about__text">The national parks of Canada are a source of pride for Canadians and an integral part of our
+      identity, they celebrate the beauty and infinite variety of our land.</p>
+  </div>
+</div>
+<div class="above-media">
+  <div class="above-media__img-container">
+    <img class="above-media__img" src="https://www.panorama-photo.net/photo/13639.jpg"
+      alt="Killarney Provincial Park, Ontario">
+  </div>
+  <figcaption class="above-media__figcaption"> Killarney Provincial Park, Ontario.</figcaption>
+</div>
+<div id="media-start"></div>
+<div id="media" class="media-area">
+  <iframe id="video" class="media-area__iframe" src="https://www.youtube.com/embed/zHLFUaocShg" frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div id="contact-address" class="contact-address">
+  <form id="form" class="form-email" action="https://www.freecodecamp.com/email-submit">
+
+    <label class="form-email__label" for="email">For questions or comments, submit your email below and we will be in
+      contact! </label>
+
+    <input id="email" type="email" name="email" placeholder="Enter email address here" required><br>
+
+    <input id="submit" type="submit" value="submit">
+
+  </form>
+  <div class="address">
+    <p class="contact-address__text">Mailing address:</p>
+    <p class="contact-address__text">Parks Canada National Office<br>30 Victoria Street<br>Gatineau,
+      Quebec<br>Canada<br>J8X 0B3</p>
+  </div>
+</div>
