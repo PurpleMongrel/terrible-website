@@ -28,7 +28,7 @@ body {
     background-color: #000000;
     /*  color: #397e66; */
     color: #fff;
-    text-shadow:
+    /* text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff,
@@ -36,12 +36,24 @@ body {
         0 0 82px #0fa,
         0 0 92px #0fa,
         0 0 102px #0fa,
-        0 0 151px #0fa;
+        0 0 151px #0fa; */
+        text-shadow:
+        0 0 4px #fff,
+        0 0 5px #fff,
+        0 0 12px #fff,
+        0 0 21px #0fa,
+        0 0 41px #0fa,
+        0 0 46px #0fa,
+        0 0 51px #0fa,
+        0 0 75px #0fa;
     margin: 0;
     padding: 0;
     position: relative;
     /*     font-family: roboto; */
     font-family: 'EB Garamond', serif;
+    text-align: justify;
+    text-justify: inter-word
+    
 }
 
 /* Header START */
@@ -149,7 +161,7 @@ body {
 
 
 .first-picture {
-    margin-top: 10%;
+    
     /* padding: 22px 2% 20px 2%; */
     padding: 5px;
     height: 60%;
@@ -162,7 +174,7 @@ body {
 }
 
 .first-picture__figcaption {
-    margin-top: 20%;
+    
     padding: 5%;
     text-align: center;
 }
@@ -440,7 +452,8 @@ body {
 }
 
 #jazzyGameOfLife_container {
-    margin-top: 100px;;
+    margin-top: 10%;
+    display: inline-flexbox
 }
 
 /* Media query for responsive header and contact/address area END */
