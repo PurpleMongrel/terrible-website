@@ -15,7 +15,16 @@
     font-family: arcade;
     font-size: 30px;
     color: rgb(215, 218, 58);
-    border: 3px solid rgb(10, 40, 138);
+    border: 3px solid #1138bb;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 5px #0a288a,
+    0 0 10px #0a288a,
+    0 0 10px #0a288a,
+    0 0 20px #0a288a,
+    0 0 20px #0a288a;
     border-radius: 2px;
     margin: 0 auto;
     margin-top: 20px;
@@ -39,7 +48,16 @@
   }
 
   #grid {
-    border: 3px solid rgb(216, 51, 29);
+    border: 3px solid #b92a17;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 5px #b92a17,
+    0 0 10px #b92a17,
+    0 0 10px #b92a17,
+    0 0 20px #b92a17,
+    0 0 20px #b92a17;
     border-radius: 1px;
     padding-left: 1px;
     padding-right: 1px;
