@@ -138,7 +138,7 @@ body {
 /* Game of Life Section START*/
 
 #jazzyGameOfLife_container {
-    margin: 30% 2% 2% 2%;
+    margin: 250% 2% 2% 2%;
     display: inline-flex;
     max-width: 1600px;  
 }
@@ -162,6 +162,14 @@ body {
     0 0 35px #09b37a;
 }
 /* Game of life section END */
+
+/* Rat Game Section START */
+
+.ratGame-section-container{
+    display: flex;
+}
+
+/* Rat Game Section END */
 
 /* Quote with pic section START*/
 
