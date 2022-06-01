@@ -70,5 +70,5 @@
 
   @font-face{
     font-family: "arcade";
-    src: url("ARCADECLASSIC.TTF") format("truetype");
+    src: url("fonts/ARCADECLASSIC.TTF") format("truetype");
   }
