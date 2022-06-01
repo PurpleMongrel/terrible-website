@@ -138,7 +138,7 @@ body {
 /* Game of Life Section START*/
 
 #jazzyGameOfLife_container {
-    margin: 250% 2% 2% 2%;
+    margin: 25% 2% 2% 2%;
     display: inline-flex;
     max-width: 1600px;  
 }
