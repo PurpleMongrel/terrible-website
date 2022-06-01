@@ -1,0 +1,19 @@
+/* body {background-color: rgb(19, 15, 32);} */
+#canvas {
+  width: 1000px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: crosshair;
+}
+
+#scoreCanvas{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background:  #2c1c63;
+}
